@@ -3,8 +3,14 @@
 __pycache__/
 *.pyc
 .DS_Store
+.idea/
+logfile
+*.log
+.pytest_cache/
 
 data/raw/*.csv
-data/processed/*.csv
+!data/raw/sample_tickets.csv
+data/processed/*
+!data/processed/.gitkeep
 
 .ipynb_checkpoints/

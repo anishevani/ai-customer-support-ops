@@ -1,0 +1,8 @@
+Ticket_ID,Customer_Name,Customer_Email,Ticket_Subject,Ticket_Description,Issue_Category,Priority_Level,Ticket_Channel,Submission_Date,Resolution_Time_Hours,Assigned_Agent,Satisfaction_Score
+TKT-1,Ada Lovelace,ada@example.com,Login failed,Cannot sign in,Technical,High,Email,2025-01-01,5,Anya Sharma,4
+TKT-2,Alan Turing,alan@example.com,Invoice error,Charged twice,Billing,Low,Chat,2025-01-02,20,Ben Carter,2
+TKT-3,Grace Hopper,grace@example.com,Locked account,Password reset loop,Account,Medium,Web Form,2025-01-03,8,Chloe Adams,5
+TKT-4,Katherine Johnson,kj@example.com,Suspicious login,Unknown device,Fraud,Critical,Email,2025-01-04,2,David Kim,3
+TKT-5,Linus Torvalds,linus@example.com,Office hours,When are you open,,high,Chat,2025-01-05,12,Elena Rodriguez,4
+TKT-6,Barbara Liskov,barbara@example.com,Bad export,N/A time,Technical,URGENT,Email,2025-01-06,not-a-number,Anya Sharma,1
+TKT-7,Donald Knuth,don@example.com,Blank hours,Still waiting,Billing,Low,Chat,2025-01-07,,Ben Carter,2
