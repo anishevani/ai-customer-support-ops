@@ -12,5 +12,6 @@ data/raw/*.csv
 !data/raw/sample_tickets.csv
 data/processed/*
 !data/processed/.gitkeep
+data/processed/rejected_rows.csv
 
 .ipynb_checkpoints/
