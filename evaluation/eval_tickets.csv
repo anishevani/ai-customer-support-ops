@@ -1,0 +1,31 @@
+ticket_id,ticket_subject,ticket_description,expected_category,expected_priority,expected_sentiment,ambiguous,source_issue_category,source_priority_level
+TKT-100008,Login failed - Son,"Hi Support, I cannot log into my account even after resetting the password. Direction want class cut.",Authentication,High,Frustrated,no,Technical,High
+TKT-100021,Change email - Them,"Hi Support, I lost my phone and cannot pass the 2FA check. Sister short social movement ok response do.",Authentication,High,Frustrated,yes,Account,Medium
+TKT-100023,2FA issues - Land,"Hi Support, I am not receiving the password reset email. Seek bar piece news single.",Authentication,High,Frustrated,no,Account,Low
+TKT-100002,2FA issues - Question,"Hi Support, How do I upgrade to the Enterprise plan? Close stand street wear your her.",Account,Low,Neutral,yes,Account,High
+TKT-100035,Subscription upgrade - Against,"Hi Support, Please help me change the email address associated with my account. Really generation fight increase take.",Account,Medium,Neutral,no,Account,Medium
+TKT-100011,2FA issues - Professor,"Hi Support, I want to permanently delete my account and data. Our industry system then realize type purpose.",Account,Medium,Neutral,yes,Account,Low
+TKT-100017,Subscription upgrade - Understand,"Hi Support, My profile picture is not updating. Call them tend stay question four this experience.",Account,Low,Frustrated,no,Account,Low
+TKT-100018,Refund status - Receive,"Hi Support, Can you send me the invoice for transaction #99283? Involve bar significant race southern.",Billing,Medium,Neutral,no,Billing,Low
+TKT-100014,Payment failed - Close,"Hi Support, I requested a refund 5 days ago, where is it? Enough building life western same remember week.",Billing,High,Frustrated,no,Billing,Low
+TKT-100040,Suspicious charge - With,"Hi Support, I noticed a double charge on my statement for last month. No glass marriage attorney explain production interesting.",Billing,High,Frustrated,no,Billing,High
+TKT-100019,Invoice discrepancy - System,"Hi Support, Why is my bill higher than the agreed amount? For thing service support popular southern.",Billing,Medium,Frustrated,no,Billing,Medium
+TKT-100007,Payment failed - Win,"Hi Support, My subscription renewed automatically, but I wanted to cancel. Grow soldier minute capital matter.",Billing,Medium,Frustrated,no,Billing,Medium
+TKT-100004,Refund status - Attention,"Hi Support, I have been trying to update my payment method but it keeps failing. Study talk teach.",Billing,High,Frustrated,no,Billing,Medium
+TKT-100027,Login failed - Operation,"Hi Support, How do I install the latest patch on Windows 11? Even continue floor morning tax girl.",Technical,Low,Neutral,yes,Technical,Low
+TKT-100001,Data not syncing - Card,"Hi Support, The application crashes every time I open the settings tab. Speech wall six hour book.",Technical,High,Frustrated,no,Technical,High
+TKT-100003,Login failed - Let,"Hi Support, The dashboard is not loading any data, just a spinning wheel. Raise third recently turn.",Technical,High,Frustrated,yes,Technical,Low
+TKT-100012,Login failed - Surface,"Hi Support, My data hasn't synced to the cloud for 24 hours. Man walk magazine power station wife.",Technical,High,Frustrated,yes,Technical,Critical
+TKT-100061,Screen freezes - Whose,"Hi Support, We are receiving a 500 Internal Server Error on the API endpoint. Hundred down minute range.",Technical,High,Frustrated,no,Technical,Critical
+TKT-100057,Stolen card - Represent,"Hi Support, I think my account has been compromised. Night body perform.",Fraud,Critical,Concerned,no,Fraud,High
+TKT-100081,Unrecognized login - Late,"Hi Support, Why is there a new device added to my trusted list? Late yes upon set half trip white.",Fraud,High,Concerned,no,Fraud,Critical
+TKT-100135,Account hacked - Away,"Hi Support, Someone used my card to make a purchase on your site. Open customer prepare heavy fact person save sit.",Fraud,Critical,Concerned,no,Fraud,High
+TKT-100036,Phishing attempt - Close,"Hi Support, I received a suspicious email claiming to be support. Technology his want growth plan style.",Fraud,High,Concerned,no,Fraud,High
+TKT-100065,Account hacked - Tough,"Hi Support, Lock my account immediately, I see transactions I didn't make. Share son next way raise population.",Fraud,Critical,Urgent,no,Fraud,High
+TKT-100151,Suspicious activity - Newspaper,"Hi Support, I received a login alert from a device in Russia, which wasn't me. Ever message three idea card check.",Fraud,High,Concerned,no,Fraud,Critical
+TKT-100022,Office location - Decision,"Hi Support, Do you offer a discount for non-profits? Fill so day conference week goal language.",General Inquiry,Low,Neutral,no,General Inquiry,Low
+TKT-100000,Hours of operation - Individual,"Hi Support, Where is your headquarters located? Lay soon message show know main.",General Inquiry,Low,Neutral,no,General Inquiry,High
+TKT-100016,Demo request - Ten,"Hi Support, How does the team pricing tier work? Fight nation cup building military.",General Inquiry,Low,Neutral,no,General Inquiry,Low
+TKT-100009,Product question - Market,"Hi Support, Is there a roadmap for new features this year? Center threat side know fall.",General Inquiry,Low,Neutral,no,General Inquiry,Low
+TKT-100013,Hours of operation - May,"Hi Support, What are your support operating hours? Safe down affect after her business wonder.",General Inquiry,Low,Neutral,no,General Inquiry,Medium
+TKT-100025,Product question - Concern,"Hi Support, I would like to request a demo for my team. Drive indicate usually music lot at.",General Inquiry,Low,Neutral,no,General Inquiry,Medium

@@ -66,17 +66,22 @@ Create these in Model view. Cardinality is many tickets to one dimension row. Fi
 
 Mark `dim_date` as a date table on `full_date`. Sort `priority_name` by `priority_key`, and `month_name` by `month_number`.
 
-## Measures to put on the page
+## Measures on the report
 
-Use the columns above. Do not retype the high-priority rule or the SLA hours in DAX.
+These six measures sit on `fact_tickets`. They aggregate columns the views already calculated. The high-priority rule and the 24 / 48 / 72 hour targets stay in SQL.
 
-- Ticket volume: count of `ticket_id`
-- Average handle time: average of `resolution_time_hours`
-- Average CSAT: average of `satisfaction_score`
-- High-priority tickets: sum of `is_high_priority`
-- Illustrative breach %: sum of `sla_breach` divided by the count of rows where `sla_breach` is not blank
+| Measure | Expression | Format |
+| --- | --- | --- |
+| Total Tickets | `COUNTROWS(fact_tickets)` | `#,0` |
+| Average Resolution Time | `AVERAGE(fact_tickets[resolution_time_hours])` | `0.00` |
+| Median Resolution Time | `MEDIAN(fact_tickets[resolution_time_hours])` | `0.00` |
+| Average Satisfaction | `AVERAGE(fact_tickets[satisfaction_score])` | `0.00` |
+| High Priority % | `DIVIDE(SUM(fact_tickets[is_high_priority]), [Total Tickets])` | `0.0%` |
+| SLA Breach % | `DIVIDE(SUM(fact_tickets[sla_breach]), COUNT(fact_tickets[sla_breach]))` | `0.0%` |
 
-Title the breach visual **Illustrative project SLA**, with the 24 / 48 / 72 hour targets in the subtitle.
+Checked against the loaded model: 20,000 tickets, average 39.23 hours, median 27 hours, satisfaction 3.72, high priority 23.6%, illustrative breach 20.5%. A Billing filter returns 5,036 tickets, satisfaction 2.98, and breach 21.7%.
+
+The breach visuals are titled as an illustrative target. The hour assumptions live on `dim_priority.illustrative_sla_hours`.
 
 ## Load
 

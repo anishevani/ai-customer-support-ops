@@ -24,6 +24,7 @@ summary
 recommended action
 reason
 model used
+prompt version
 processed timestamp
 
 workflow_events

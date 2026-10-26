@@ -76,6 +76,7 @@ CREATE TABLE ai_ticket_enrichment (
     recommended_action     TEXT,
     reason                  TEXT,
     model_used              VARCHAR(120),
+    prompt_version          VARCHAR(40),
     processed_at            TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 
